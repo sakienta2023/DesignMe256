@@ -1,141 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LN3D3ZS6CF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-LN3D3ZS6CF");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design Me 256 - Home</title>
-    <link rel="stylesheet" href="DesignMeCss/designMe.css">
-   
-  <link
+    <link rel="stylesheet" href="DesignMeCss/designMe.css" />
+
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
- <link
+
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />   
-    
-</head>
-<body>
+    />
+  </head>
+  <body>
     <!-- Header Section -->
     <header>
-        <div class="container nav-container nav-container-page-1">
-            
-            <div class="logo">
-            <h1>Design Me 256</h1>
-            <img src="DesignMeImages/IMG-20241021-WA0001.jpg" alt="">
-            </div>
-            <div class="nav-row">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            
-<div class="nav-col">
-  <button id="menuButton"><i class="fa-solid fa-bars"></i></button>
-  <nav id="navMenu" class="hidden">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <button class="hidden" id="closeButton"><i class="fa-solid fa-xmark"></i></button>
-  </nav>
- </div> 
- 
-    
-            
-            <button class="cta-button"><a href="products.html">Shop Now</a></button>
+      <div class="container nav-container nav-container-page-1">
+        <div class="logo">
+          <a href="https://design-me-256.my-style.in" class="logo-h1"> <h1>Design Me 256</h1></a>
+          
+          <a href="https://design-me-256.my-style.in"> <img src="DesignMeImages/IMG-20241021-WA0001.jpg" alt="" /></a>
+
         </div>
-</header>
+        <div class="nav-row">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
 
+        <div class="nav-col">
+          <button id="menuButton"><i class="fa-solid fa-bars"></i></button>
+          <nav id="navMenu" class="hidden">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="hidden" id="closeButton">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </nav>
+        </div>
 
+        <button class="cta-button"><a href="products.html">Shop Now</a></button>
+      </div>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <h2>Bring Your Ideas to Life</h2>
-            <p>Explore our design services and discover creative solutions for all your needs.</p>
-            <button class="cta-button"><a href="services.html">Get Started</a></button>
-        </div>
+      <div class="container">
+        <h2>Crotchet The Modern Way</h2>
+
+        <p>
+          Explore our handcrafted pieces beautifully designed and customized
+          with a classy and modern touch to elevate your personal style.
+        </p>
+        <button class="cta-button">
+          <a href="services.html">Get Started</a>
+        </button>
+      </div>
     </section>
 
     <!-- Featured Products Section -->
-    <section class="featured-products">
-        <div class="container">
-            <h2>Featured Products</h2>
-            <div class="products-grid">
+    <section class="featured-products" id="featured-products">
+      <div class="container">
+        <h2>Featured Products</h2>
+        <div class="products-grid">
+          <div class="product">
+            <img src="DesignMeImages/IMG-20241221-WA0029.jpg" alt="Product 2" />
+            <h3>Vneck Crotchet Sweater (Customized)</h3>
+            <!--  <p>Ugx 100,000/-</p> -->
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Get A Quote</a>
+            </button>
+          </div>
 
-                <div class="product">
-                    <img src="DesignMeImages/IMG-20241029-WA0006.jpg" alt="Product 2">
-                    <h3>The Oreo Crotchet Purse</h3>
-                    <p>Ugx 150,000/-</p>
-                    <button class="cta-button"><a href="https://wa.me/+256 703 876037">Order Now</a></button>
-                </div>
+          <div class="product">
+            <img src="DesignMeImages/IMG-20241221-WA0033.jpg" alt="Product 2" />
+            <h3>Crotchet Scarf</h3>
+            <!--  <p>Ugx 100,000/-</p> -->
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Get A Quote</a>
+            </button>
+          </div>
 
-                <div class="product">
-                    <img src="DesignMeImages/designMe_05.jpg" alt="Product 1">
-                    <h3>Beach Suit</h3>
-                <!--    <p>Ugx 289,999/-</p> -->
-                    <button class="cta-button"><a href="https://wa.me/+256 703 876037">Get a Quote</a></button>
-                </div>
-                <div class="product">
-                    <img src="DesignMeImages/designMe_07.jpg" alt="Product 2">
-                    <h3>Baby Shred</h3>
-                    <p>Ugx 249,500/-</p>
+          <!--   <div class="product">
+                    <img src="DesignMeImages/IMG-20241221-WA0031.jpg" alt="Product 2">
+                    <h3>Patched Oreo Bag with Charms</h3>
+                    <p>Ugx 100,000/-</p>
                     <button class="cta-button"><a href="https://wa.me/+256 703 876037">Order Now</a></button>
-                </div>
-                <div class="product">
-                    <img src="DesignMeImages/designMe_06.jpg" alt="The Scarf">
-                    <h3>The Scarf</h3>
-                  <!--  <p>Ugx 179,500/-</p> -->
-                    <button class="cta-button"><a href="https://wa.me/+256 703 876037">Get a Quote</a></button>
-                </div>
-            </div>
+                </div> -->
+
+          <div class="product">
+            <img src="DesignMeImages/IMG-20241221-WA0032.jpg" alt="Product 2" />
+            <h3>Alpine Cropped Sweater (Customized)</h3>
+            <!--  <p>Ugx 100,000/-</p> -->
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Get A Quote</a>
+            </button>
+          </div>
+
+          <div class="product">
+            <img src="DesignMeImages/IMG-20241218-WA0010.jpg" alt="Product 2" />
+            <h3>Patched Oreo Bag with Charms</h3>
+            <p>Ugx 100,000/-</p>
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Order Now</a>
+            </button>
+          </div>
+
+          <div class="product">
+            <img src="DesignMeImages/IMG-20241218-WA0009.jpg" alt="Product 2" />
+            <h3>Crotchet 🧣</h3>
+            <p>Ugx 50,000/-</p>
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Order Now</a>
+            </button>
+          </div>
+
+          <div class="product">
+            <img src="DesignMeImages/IMG-20241029-WA0006.jpg" alt="Product 2" />
+            <h3>The Oreo Crotchet Purse</h3>
+            <p>Ugx 150,000/-</p>
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Order Now</a>
+            </button>
+          </div>
+
+          <div class="product">
+            <img src="DesignMeImages/designMe_05.jpg" alt="Product 1" />
+            <h3>Longe/ Beach Set (Customized)</h3>
+            <!--    <p>Ugx 289,999/-</p> -->
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Get a Quote</a>
+            </button>
+          </div>
+          <div class="product">
+            <img src="DesignMeImages/designMe_07.jpg" alt="Product 2" />
+            <h3>Kids Crotchet Romper</h3>
+            <p>Ugx 150,000/-</p>
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Order Now</a>
+            </button>
+          </div>
+          <div class="product">
+            <img src="DesignMeImages/designMe_06.jpg" alt="The Scarf" />
+            <h3>Pocket Scarf</h3>
+            <p>Ugx 50,000/-</p>
+            <button class="cta-button">
+              <a href="https://wa.me/+256 703 876037">Get a Quote</a>
+            </button>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Services Section -->
     <section class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <p>We offer a range of design solutions for businesses and individuals. From branding to Consultation, we've got you covered.</p>
-            <button class="cta-button"><a href="services.html">Discover More</a></button>
-        </div>
+      <div class="container">
+        <h2>Our Services</h2>
+        <p>
+          We offer a range of design solutions for businesses and individuals.
+          From branding to Consultation, we've got you covered.
+        </p>
+        <button class="cta-button">
+          <a href="services.html">Discover More</a>
+        </button>
+      </div>
     </section>
+
+    <!--  ------- Popup HTML Start ----- -->
+
+    <!-- Popup HTML
+  <div id="popup-overlay">
+    <div class="popup-box" id="popup-box">
+      <h1>Happy Holidays From We, to You <br>🎄</h1>
+      <p>Wishing you joy, peace, and happiness this festive season!</p>
+      <button id="close-popup">Close</button>
+    </div>
+  </div> -->
+
+    <!--  ------- Popup HTML Ends ----- -->
+
+    <!--  ------- New Year Pop Up Start ----- -->
+
+    <div id="newYearPopup" class="popup">
+      <div class="popup-content">
+        <h1>🎉 Happy New Year 2025! 🎉</h1>
+        <p>
+          Wishing you a year filled with joy, success, and endless
+          opportunities!
+        </p>
+        <p>
+          Thank you for being a part of our journey. Let's make 2025
+          unforgettable together!
+        </p>
+        <div class="cta-buttons">
+          <a href="#featured-products" class="btn">Explore New Deals</a>
+          <a href="https://design-me-256.my-style.in" class="btn secondary"
+            >Join Us for an Exciting 2025!</a
+          >
+        </div>
+        <button class="close-btn" onclick="closePopup()">
+          <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18 17.94 6M18 18 6.06 6"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!--  -------  New Year pop up Ends ----- -->
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Design Me 256. All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2024 Design Me 256. All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="DesignMeJs/script.js">
-        
-        // Scroll to the top when clicking a CTA button
-document.querySelectorAll('.cta-button').forEach(button => {
-    button.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-});
 
-// Placeholder for future dynamic JS actions
-console.log("Design Me 256 site is ready.");
-     
+
+
+              // Scroll to the top when clicking a CTA button
+      document.querySelectorAll('.cta-button').forEach(button => {
+          button.addEventListener('click', () => {
+              window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+              });
+          });
+      });
+
+      // Placeholder for future dynamic JS actions
+      console.log("Design Me 256 site is ready.");
     </script>
-</body>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Delay by 3 seconds before showing the popup
+        setTimeout(function () {
+          document.getElementById("popup-overlay").style.display = "flex";
+        }, 3000); // 3000ms = 3 seconds
+
+        // Close popup on button click
+        document
+          .getElementById("close-popup")
+          .addEventListener("click", function () {
+            document.getElementById("popup-overlay").style.display = "none";
+          });
+      });
+    </script>
+
+    <script>
+      // JavaScript to control the popup
+      function closePopup() {
+        const popup = document.getElementById("newYearPopup");
+        popup.style.display = "none";
+      }
+
+      // Optional: Automatically close after 10 seconds
+      setTimeout(() => {
+        closePopup();
+      }, 7000);
+    </script>
+  </body>
 </html>
